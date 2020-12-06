@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
 read -p 'ダウンロードする動画のURL:' url
 echo "=============指定可能なフォーマット============="
 youtube-dl -F $url
